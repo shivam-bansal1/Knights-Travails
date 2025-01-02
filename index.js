@@ -1,5 +1,6 @@
-import { validMoves } from "./knightTravails.js";
+import { knightMoves } from "./knightTravails.js";
 
-console.log(validMoves([3, 3]));
-console.log(validMoves([0, 0]));
-console.log(validMoves([6, 6]));
+knightMoves([0, 0], [1, 2]);
+knightMoves([3, 3], [7, 6]);
+knightMoves([0, 0], [7, 7]);
+knightMoves([0, 0], [9, 9]);

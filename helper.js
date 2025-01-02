@@ -5,3 +5,10 @@ export const filterInvalidMoves = (moves) => {
 
   return moves;
 };
+
+export function printPath(path, movesTaken) {
+  console.log(`You made it in ${movesTaken} moves!  Here's your path:`);
+  for (let node of path) {
+    console.log(node);
+  }
+}
